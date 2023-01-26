@@ -1,0 +1,370 @@
+@import url('https://fontawesome.com/v4/icon');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: paleturquoise;
+    color: white;
+    padding: 0px 30px;
+    padding: 20px 0px;
+    position: relative;
+    display: block;
+    border-style: hidden;
+    border-radius: 7px;
+}
+
+.all{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 50px;
+    align-content: center;
+}
+
+.whole{
+    background: url(https://icm.aexp-static.com/content/dam/contenthub/us/en/ach-images/2022/1/japanese-biz-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header{
+    background-color: grey;
+    opacity: 0.5;
+    width: 100%;
+    padding-top: 0px;
+    min-height: 30px;
+    display: flex;
+    font-size: 15px;
+    justify-content: end;
+    gap: 50px;
+    align-items: center;
+    border-spacing: 0px;
+}
+
+.paragraph{
+    padding-right: 45px;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    padding-top: 20px;
+    margin-right: 50px;
+    width: 100%;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-color: grey;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.first{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.img{
+    border-radius: 700px;
+}
+
+.button{
+    color: white;
+    border-radius: 7px;
+    background-color: green;
+    padding: 10px;
+    width: 130%;
+    border-style: hidden;
+}
+
+.third{
+    width: 30%;
+    display: block;
+    padding: 180px 50px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.buttons{
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+}
+
+.but{
+    width: auto;
+    padding: 10px;
+    border-radius: 7px;
+    border-style: hidden;
+    background-color: green;
+    color: white;
+}
+
+.buts{
+    width: auto;
+    padding: 10px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: initial;
+    color: white;
+    border-color: white;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.par{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.bda{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.title{
+    font-size: 30px;
+    padding-top: 150px;
+}
+
+.images{
+    display: flex;
+    padding: 50px 50px;
+    gap: 30px;
+    overflow-x: hidden;
+    opacity: 0.7;
+}
+
+.image{
+    border-style: solid;
+    border-color: wheat;
+    border-width: 1px;
+}
+
+.part{
+    display: flex;
+    padding-top: 100px;
+}
+
+.parts{
+    padding: 50px 50px;
+}
+
+.tit{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.para{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: gray;
+    padding-right: 50px;
+    column-gap: 15px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    font-size: 14px;
+    color: gray;
+    list-style: circle;
+    padding: 0px 20px;
+    padding-bottom: 50px;
+}
+
+
+li::marker{
+    font-size: 20px;
+    color: green;
+}
+
+.about{
+    width: 25%;
+    padding: 10px;
+    border-radius: 7px;
+    border-style: hidden;
+    background-color: green;
+    color: white;
+}
+
+.num{
+    display: flex;
+    background-color: whitesmoke;
+    min-height: 200px;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+nav{
+    font-size: 30px;
+    display: block;
+    margin: 0px 100px;
+    margin-left: 150px;
+}
+
+.imagery{
+    display: flex;
+    padding: 50px 30px;
+    gap: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.recent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 70px;
+}
+
+.parag{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: gray;
+    padding-right: 50px;
+    column-gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.paragh{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: gray;
+    padding-right: 50px;
+    column-gap: 15px;
+    padding-bottom: 30px;
+    padding-top: px;
+}
+
+.on{
+    width: 15%;
+    padding: 10px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: initial;
+    color: green;
+    border-color: green;
+    margin: 50px 0px;
+}
+
+.hero{
+    background: url(https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img/https://thebranded.agency/wp-content/uploads/2020/11/the_branded_agency_service_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    gap: 30px;
+    color: whitesmoke;
+    margin: 50px 0px;
+}
+
+.bod{
+    border-style: solid;
+    border-width: 1px;
+    padding: 100px 50px;
+    margin: 100px 0px;
+    margin-left: 110px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.bode{
+    border-style: solid;
+    border-width: 1px;
+    padding: 100px 50px;
+    margin: 100px 0px;
+}
+
+.bo{
+    border-style: solid;
+    border-width: 1px;
+    padding: 100px 50px;
+    margin: 100px 0px;
+    margin-right: 110px;
+}
+
+.case{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.flex{
+    display: flex;
+    padding: 70px 100px;
+}
+
+.finance{
+    padding-right: 50px;
+}
+
+.box{
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes{
+    margin: 20px 50px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.rob{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.four{
+    padding: 50px 0px;
+    background-color: green;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50%;
+    column-gap: 15px;
+}
+
+.final{
+    opacity: 0.5;
+}
+
+.final:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}
